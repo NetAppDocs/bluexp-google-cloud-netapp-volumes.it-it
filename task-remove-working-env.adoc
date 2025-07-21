@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task-remove-working-env.html 
+keywords: remove working environment, delete working environment, remove google cloud netapp volumes, remove, delete 
+summary: Puoi rimuovere un abbonamento a Google Cloud NetApp Volumes per Google Cloud e tutti i volumi esistenti da BlueXP. Questa azione rimuove Google Cloud NetApp Volumes da BlueXP. Non elimina il tuo account Google Cloud NetApp Volumes né i volumi. Puoi aggiungere nuovamente Google Cloud NetApp Volumes a BlueXP in qualsiasi momento. 
+---
+= Rimuovere i Google Cloud NetApp Volumes da BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+È possibile rimuovere un abbonamento a Google Cloud NetApp Volumes e tutti i volumi esistenti da BlueXP. I volumi non vengono eliminati, ma rimossi da tutti i progetti all'interno BlueXP e possono essere nuovamente rilevati in un secondo momento.
+
+
+TIP: Non è possibile eliminare i Google Cloud NetApp Volumes da BlueXP. Eseguire questa operazione tramite Google Cloud Console.
+
+.Fasi
+. Aprire l'ambiente di lavoro.
+. Fare clic su image:screenshot_gallery_options.gif["Un'icona con tre punti."] nella parte superiore della pagina e fare clic su *Rimuovi*.
+

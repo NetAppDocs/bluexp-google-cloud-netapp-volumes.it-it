@@ -1,0 +1,46 @@
+---
+settings:
+  name: Google Cloud NetApp Volumes
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: it-it,us-en,de-de,es-es,fr-fr,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Google Cloud NetApp Volumes
+    url: "/index.html"
+  - title: Note di rilascio
+    entries:
+    - title: Novità
+      url: "/whats-new.html"
+  - title: Inizia subito
+    entries:
+    - title: Scopri di più su Google Cloud NetApp Volumes
+      url: "/concept-gcnv.html"
+    - title: Per iniziare il flusso di lavoro
+      url: "/task-quick-start.html"
+    - title: Configurare Google Cloud
+      url: "/task-set-up-gcnv.html"
+    - title: Aggiungi un ambiente di lavoro
+      url: "/task-create-working-env.html"
+  - title: Utilizza Google Cloud NetApp Volumes
+    entries:
+    - title: Gestire i volumi
+      url: "/task-manage-volumes.html"
+    - title: Rimuovi Google Cloud NetApp Volumes
+      url: "/task-remove-working-env.html"
+  - title: Conoscenza e supporto
+    entries:
+    - title: Registrati per ricevere assistenza
+      url: "/task-support-registration.html"
+    - title: Richiedi assistenza
+      url: "/task-get-help.html"
+  - title: Note legali
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: bluexp-family

@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-manage-volumes.html 
+keywords: google cloud netapp volumes, view volumes 
+summary: 'Dopo aver configurato l"ambiente di lavoro, puoi visualizzare i volumi Google Cloud NetApp .' 
+---
+= Gestire i volumi esistenti
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puoi visualizzare i volumi esistenti e tutte le azioni eseguite su di essi.
+
+*Ruolo BlueXP obbligatorio* Amministratore dell'organizzazione, amministratore di cartelle o progetti oppure amministratore Google Cloud NetApp Volumes .  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Scopri i ruoli di accesso BlueXP per tutti i servizi"^] .
+
+
+
+== Visualizza un volume
+
+Visualizza i dettagli dei tuoi volumi, ad esempio nome, conteggio, regione, capacità, capacità utilizzata e pool di archiviazione.
+
+.Fasi
+. Fare clic su *Accedi all'ambiente di lavoro* per aprire l'ambiente di lavoro.
+. Per visualizzare un volume specifico nella tabella, selezionare image:icon_search.png["Un'icona con tre punti."] e immettere il nome del volume.
+. Per visualizzare le etichette associate a un volume, nella colonna *Etichette*, selezionare *Visualizza*.
+
+
+
+
+== Visualizza il registro di controllo
+
+È possibile visualizzare tutte le azioni eseguite sui volumi nella sequenza temporale.
+
+.Fasi
+. In alto a destra, seleziona *Impostazioni* > *Cronologia*.
+
+
+.Risultato
+Nella tabella *Registri di controllo* è possibile visualizzare tutte le azioni eseguite sui volumi.
