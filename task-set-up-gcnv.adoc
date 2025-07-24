@@ -44,8 +44,8 @@ Ad esempio: user1-service-account-gcnv@project1.iam.gserviceaccount.com
 
 .. Aggiungere i seguenti ruoli:
 +
-*** _NetApp Cloud Volumes Admin_
-*** _Compute Network Viewer_
+*** _Amministratore di Google Cloud NetApp Volumes_
+*** Visualizzatore Google Cloud NetApp
 
 
 .. Fare clic su *Save* (Salva).
@@ -60,6 +60,7 @@ Facendo clic su *Create* (Crea), la nuova coppia di chiavi pubbliche/private vie
 
 Per informazioni dettagliate, consulta la documentazione di Google Cloud:
 
+* link:https://cloud.google.com/iam/docs/roles-permissions/netapp["Ruoli e autorizzazioni Google Cloud NetApp Volumes"^]
 * link:https://cloud.google.com/iam/docs/creating-managing-service-accounts["Creazione e gestione degli account di servizio"^]
 * link:https://cloud.google.com/iam/docs/granting-changing-revoking-access["Concessione, modifica e revoca dell'accesso alle risorse"^]
 * link:https://cloud.google.com/iam/docs/creating-managing-service-account-keys["Creazione e gestione delle chiavi dell'account di servizio"^]
