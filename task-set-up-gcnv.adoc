@@ -22,30 +22,34 @@ BlueXP necessita delle autorizzazioni appropriate tramite un account del servizi
 
 Completare le seguenti attività in modo che BlueXP possa accedere al progetto Google Cloud:
 
-* Creare un nuovo account di servizio
-* Aggiungere il nuovo membro dell'account di servizio al progetto e assegnargli ruoli specifici (autorizzazioni)
-* Creare e scaricare una coppia di chiavi per l'account di servizio utilizzato per l'autenticazione su Google
+* Se non disponi già di un account di servizio, creane uno nuovo.
+* Aggiungi il membro dell'account di servizio al tuo progetto e assegnagli ruoli specifici (autorizzazioni).
+* Crea e scarica una coppia di chiavi per l'account di servizio utilizzato per l'autenticazione su Google.
 
 
 .Fasi
 . Nella console di Google Cloud,  https://console.cloud.google.com/iam-admin/serviceaccounts["Accedere alla pagina Service accounts (account servizio)"^] .
 . Fare clic su *Seleziona un progetto*, scegliere il progetto e fare clic su *Apri*.
-. Fare clic su *Create service account* (Crea account servizio).
-. Inserire il nome dell'account del servizio (nome descrittivo) e la descrizione.
+. (Facoltativo) Per creare un account di servizio, procedere come segue:
++
+.. Fare clic su *Create service account* (Crea account servizio).
+.. Inserire il nome dell'account del servizio (nome descrittivo) e la descrizione.
 +
 La Cloud Console genera un ID account del servizio in base a questo nome. Modificare l'ID se necessario - non è possibile modificarlo in un secondo momento.
 
-. Per impostare i controlli di accesso, fare clic su *Create* (Crea), quindi su *DONE* (FINE) nella parte inferiore della pagina e passare alla fase successiva.
+.. Per impostare i controlli di accesso, fare clic su *Create* (Crea), quindi su *DONE* (FINE) nella parte inferiore della pagina e passare alla fase successiva.
+
+
 . Dalla _pagina IAM_ fare clic su *Add* (Aggiungi) e compilare i campi della pagina _Add Members_ (Aggiungi membri):
 +
 .. Nel campo New Members (nuovi membri), immettere l'ID completo dell'account del servizio.
 +
 Ad esempio: user1-service-account-gcnv@project1.iam.gserviceaccount.com
 
-.. Aggiungere i seguenti ruoli:
+.. Aggiungi uno di questi ruoli:
 +
-*** _Amministratore di Google Cloud NetApp Volumes_
-*** Visualizzatore Google Cloud NetApp
+*** _Amministratore di Google Cloud NetApp Volumes_ OPPURE
+*** _Visualizzatore volumi Google Cloud NetApp
 
 
 .. Fare clic su *Save* (Salva).
